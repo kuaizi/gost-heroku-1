@@ -5,11 +5,19 @@
   "env": {
     "VER": {
        "description": " gost version",
-       "value": "2.5"
+       "value": "2.11.1"
+     },
+    "METHOD": {
+       "description": " METHOD",
+       "value": "rc4-md5"
+     }, 
+    "PASSWORD": {
+       "description": " PASSWORD",
+       "value": "123456"
      }, 
     "MODE": {
        "description": "ws or mws",
-       "value": "mws"
+       "value": "ss+ohttp"
      }
   },
   "website": "https://github.com/wangyi2005/gost-heroku",
