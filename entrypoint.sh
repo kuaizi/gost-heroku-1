@@ -11,4 +11,4 @@ gunzip -d gost-linux-amd64-${VER}.gz
 mv gost-linux-amd64-${VER} gost
 chmod +x gost
 #./gost -L $MODE://:$PORT
-./gost -L ss+ohttp://chacha20:123456@:$PORT
+./gost -L $MODE://$METHOD:$PASSWORD@:$PORT
